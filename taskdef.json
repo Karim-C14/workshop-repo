@@ -1,4 +1,8 @@
 {
+  "family": "webapp-devops-workshop",
+  "taskRoleArn": "arn:aws:iam::431441744762:role/devops-cluster-TaskRole-15ZEQlNisWp3",
+  "executionRoleArn": "arn:aws:iam::431441744762:role/ECSTaskExecutionRole",
+  "networkMode": "awsvpc",
   "containerDefinitions": [
     {
       "name": "webapp",
@@ -30,10 +34,6 @@
       "credentialSpecs": []
     }
   ],
-  "family": "webapp-devops-workshop",
-  "taskRoleArn": "arn:aws:iam::431441744762:role/devops-cluster-TaskRole-15ZEQlNisWp3",
-  "executionRoleArn": "arn:aws:iam::431441744762:role/ECSTaskExecutionRole",
-  "networkMode": "awsvpc",
   "volumes": [],
   "placementConstraints": [],
   "requiresCompatibilities": [
